@@ -22,6 +22,10 @@
             </feature>
         </config-file>
 		
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        </config-file>
+		
 		<lib-file src="android-libs/armeabi-v7a/liblept.so" arch="device" />
 		<lib-file src="android-libs/armeabi-v7a/libpngt.so" arch="device" />
 		<lib-file src="android-libs/armeabi-v7a/libtess.so" arch="device" />
