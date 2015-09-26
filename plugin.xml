@@ -29,10 +29,10 @@
 		<lib-file src="android-libs/x86/libtess.so" arch="device" />
 		
 		<!-- TESSERACT BASE API -->
-		<source-file src="src/android/com/googlecode/tesseract/androidPageIterator.java" target-dir="src/android/com/googlecode/tesseract/android" />
-		<source-file src="src/android/com/googlecode/tesseract/androidResultIterator.java" target-dir="src/android/com/googlecode/tesseract/android" />
-		<source-file src="src/android/com/googlecode/tesseract/androidTessBaseAPI.java" target-dir="src/android/com/googlecode/tesseract/android" />
-		<source-file src="src/android/com/googlecode/tesseract/androidTessPdfRenderer.java" target-dir="src/android/com/googlecode/tesseract/android" />
+		<source-file src="src/android/com/googlecode/tesseract/android/PageIterator.java" target-dir="src/android/com/googlecode/tesseract/android" />
+		<source-file src="src/android/com/googlecode/tesseract/android/ResultIterator.java" target-dir="src/android/com/googlecode/tesseract/android" />
+		<source-file src="src/android/com/googlecode/tesseract/android/TessBaseAPI.java" target-dir="src/android/com/googlecode/tesseract/android" />
+		<source-file src="src/android/com/googlecode/tesseract/android/TessPdfRenderer.java" target-dir="src/android/com/googlecode/tesseract/android" />
 		<!-- LEPTONICA JAVA CLASSES -->
 		<source-file src="src/android/com/googlecode/leptonica/android/AdaptiveMap.java" target-dir="src/android/com/googlecode/leptonica/android" />
 		<source-file src="src/android/com/googlecode/leptonica/android/Binarize.java" target-dir="src/android/com/googlecode/leptonica/android" />
