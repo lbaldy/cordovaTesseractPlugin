@@ -28,6 +28,8 @@
 		<lib-file src="android-libs/x86/libpngt.so" arch="device" />
 		<lib-file src="android-libs/x86/libtess.so" arch="device" />
 		
+		
+		<source-file src="src/android/pl/baldy/tesseractPlugin/TesseractPlugin.java" target-dir="src/pl/baldy/tesseractPlugin/" />
 		<!-- TESSERACT BASE API -->
 		<source-file src="src/android/com/googlecode/tesseract/android/PageIterator.java" target-dir="src/com/googlecode/tesseract/android" />
 		<source-file src="src/android/com/googlecode/tesseract/android/ResultIterator.java" target-dir="src/com/googlecode/tesseract/android" />
