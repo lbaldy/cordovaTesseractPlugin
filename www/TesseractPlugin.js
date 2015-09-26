@@ -1,3 +1,5 @@
+var exec = require('cordova/exec');
+
 var TesseractPlugin = {};
 
 TesseractPlugin.getText = function(successCallback, errorCallback, options) {
