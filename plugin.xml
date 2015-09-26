@@ -16,6 +16,12 @@
     <!-- android -->
     <platform name="android">
         
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="TesseractPlugin">
+                <param name="android-package" value="pl.baldy.tesseractPlugin.TesseractPlugin"/>
+            </feature>
+        </config-file>
+		
 		<lib-file src="android-libs/armeabi-v7a/liblept.so" arch="device" />
 		<lib-file src="android-libs/armeabi-v7a/libpngt.so" arch="device" />
 		<lib-file src="android-libs/armeabi-v7a/libtess.so" arch="device" />
