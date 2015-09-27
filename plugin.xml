@@ -26,17 +26,17 @@
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         </config-file>
 		
-		<lib-file src="android-libs/armeabi-v7a/liblept.so" />
-		<lib-file src="android-libs/armeabi-v7a/libpngt.so" />
-		<lib-file src="android-libs/armeabi-v7a/libtess.so" />
+		<source-file src="android-libs/armeabi-v7a/liblept.so" target-dir="libs/armeabi-v7a/" />
+		<source-file src="android-libs/armeabi-v7a/libpngt.so" target-dir="libs/armeabi-v7a/" />
+		<source-file src="android-libs/armeabi-v7a/libtess.so" target-dir="libs/armeabi-v7a/" />
 		
-		<lib-file src="android-libs/mips/liblept.so" />
-		<lib-file src="android-libs/mips/libpngt.so" />
-		<lib-file src="android-libs/mips/libtess.so" />
+		<source-file src="android-libs/mips/liblept.so" target-dir="libs/mips/" />
+		<source-file src="android-libs/mips/libpngt.so" target-dir="libs/mips/" />
+		<source-file src="android-libs/mips/libtess.so" target-dir="libs/mips/" />
 		
-		<lib-file src="android-libs/x86/liblept.so" />
-		<lib-file src="android-libs/x86/libpngt.so" />
-		<lib-file src="android-libs/x86/libtess.so" />
+		<source-file src="android-libs/x86/liblept.so" target-dir="libs/x86/" />
+		<source-file src="android-libs/x86/libpngt.so" target-dir="libs/x86/" />
+		<source-file src="android-libs/x86/libtess.so" target-dir="libs/x86/" />
 		
 		
 		<source-file src="src/android/pl/baldy/tesseractPlugin/TesseractPlugin.java" target-dir="src/pl/baldy/tesseractPlugin/" />
